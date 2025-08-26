@@ -11,7 +11,7 @@ source:
   sha256: 834e801e9aa4b870bed3dde2dc2a3ad7f388f1a13ffa6b3d7aade90691b9de64
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - ome_zarr = ome_zarr.cli:main
@@ -33,7 +33,7 @@ requirements:
     - requests
     - scikit-image >=0.19.0
     - toolz
-    - zarr >=v3.0.0
+    - zarr >=3.0.0
 
 test:
   imports:
