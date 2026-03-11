@@ -1,5 +1,5 @@
 {% set name = "ome-zarr" %}
-{% set version = "0.13.0" %}
+{% set version = "0.14.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 29c0ab52045c1b9d3037444dab691876591ec1db74c4a01e10cb0f0f4288a6e5
+  sha256: 96728fc03388110da436b2dbe35176887ad6dd8a1e27ee9d3ea75049451ca8e1
 
 build:
   number: 0
@@ -24,6 +24,7 @@ requirements:
     - setuptools >=77.0.3
     - setuptools-scm >=8.0
   run:
+    - deprecated
     - rangehttpserver
     - aiohttp
     - dask-core >=2025.12.0,<=2026.1.1
