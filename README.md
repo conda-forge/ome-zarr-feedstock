@@ -13,11 +13,10 @@ Current build status
 ====================
 
 
-<table><tr><td>All platforms:</td>
+<table><tr>
+    <td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=14260&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ome-zarr-feedstock?branchName=main">
-      </a>
+      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
     </td>
   </tr>
 </table>
@@ -145,6 +144,8 @@ Feedstock Maintainers
 
 * [@constantinpape](https://github.com/constantinpape/)
 * [@jdblischak](https://github.com/jdblischak/)
+* [@jo-mueller](https://github.com/jo-mueller/)
 * [@joshmoore](https://github.com/joshmoore/)
 * [@k-dominik](https://github.com/k-dominik/)
+* [@will-moore](https://github.com/will-moore/)
 
