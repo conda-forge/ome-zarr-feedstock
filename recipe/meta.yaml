@@ -28,7 +28,6 @@ requirements:
     - rangehttpserver
     - aiohttp
     - dask-core >=2025.2.0,!=2025.12.*,!=2026.1.*,!=2026.2.*
-    - distributed
     - fsspec >=0.8,!=2021.07.0,!=2023.9.0
     - numpy
     - python >={{ python_min }}
